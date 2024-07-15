@@ -1,7 +1,7 @@
-# main.py
-
 import data_handler as dh
 import data_visualiser as dv
+import data_exporter as de
+
 
 def display_menu():
     print("\n===== Nurse Attrition Analysis Tool =====")
@@ -14,7 +14,10 @@ def display_menu():
     print("7. Group Employees by Job Role")
     print("8. Summary of Attrition Data for a Department")
     print("9. Visualize Data: Pie Chart of Employees per Department")
+    print("10. Visualize Data: Histogram of Distance from Home")
+    print("11. Export Summary Data for a Department to JSON")
     print("0. Exit")
+
 
 def process_option(option):
     if option == '1':
@@ -58,6 +61,13 @@ def process_option(option):
             print(f"No data found for department {department}.")
     elif option == '9':
         dv.visualize_department_pie_chart()
+    elif option == '10':
+        dv.visualize_distance_histogram()
+    elif option == '11':
+        department = input("Enter Department Name: ")
+        summary = de.generate_department_summary(department)
+        if summary:
+            de.export_summary_to_json(department, summary)
     elif option == '0':
         print("Exiting the program...")
         return False
@@ -65,12 +75,14 @@ def process_option(option):
         print("Invalid option. Please choose again.")
     return True
 
+
 def main():
     while True:
         display_menu()
-        option = input("Enter your choice (0-9): ")
+        option = input("Enter your choice (0-11): ")
         if not process_option(option):
             break
+
 
 if __name__ == "__main__":
     main()

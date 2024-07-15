@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
-from data_handler import df
+
 
 def visualize_department_pie_chart():
     """
@@ -15,6 +15,7 @@ def visualize_department_pie_chart():
         plt.show()
     else:
         print("No data loaded for visualization.")
+
 
 def visualize_distance_histogram():
     """

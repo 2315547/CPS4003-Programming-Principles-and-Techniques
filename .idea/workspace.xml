@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="063ffe6f-b53b-4be8-b95a-9883bdb8ae4f" name="Changes" comment="hello">
+      <change afterPath="$PROJECT_DIR$/data_exporter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_visualiser.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualiser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nurse_attrition_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/nurse_attrition_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,9 @@
     "accountId": "748f799e-99ac-4d9a-a262-d518c6d9a59e"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -47,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.data_exporter.executor": "Run",
     "Python.data_handler.executor": "Run",
     "Python.data_visualiser.executor": "Run",
     "Python.nurse_attrition_app.executor": "Run",
@@ -94,8 +99,27 @@
       <option name="project" value="LOCAL" />
       <updated>1721067364991</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hello">
+      <option name="closed" value="true" />
+      <created>1721069926925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721069926925</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello" />
