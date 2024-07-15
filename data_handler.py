@@ -121,7 +121,9 @@ def summarize_attrition_data(department):
     - dict: Dictionary containing summarized attrition data for the specified department.
     """
     global df
-    if df is not None:
+    if df is None:
+        return {}
+    else:
         department_data = df[df['Department'] == department]
         summary = {
             'Number of employees': len(department_data),
@@ -149,5 +151,3 @@ def summarize_attrition_data(department):
             'Avg attrition rate': department_data['Attrition'].mean() * 100
         }
         return summary
-    else:
-        return {}

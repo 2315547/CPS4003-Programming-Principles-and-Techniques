@@ -2,7 +2,6 @@ import data_handler as dh
 import data_visualiser as dv
 import data_exporter as de
 
-
 def display_menu():
     print("\n===== Nurse Attrition Analysis Tool =====")
     print("1. Load Data")
@@ -17,7 +16,6 @@ def display_menu():
     print("10. Visualize Data: Histogram of Distance from Home")
     print("11. Export Summary Data for a Department to JSON")
     print("0. Exit")
-
 
 def process_option(option):
     if option == '1':
@@ -75,14 +73,12 @@ def process_option(option):
         print("Invalid option. Please choose again.")
     return True
 
-
 def main():
     while True:
         display_menu()
         option = input("Enter your choice (0-11): ")
         if not process_option(option):
             break
-
 
 if __name__ == "__main__":
     main()
