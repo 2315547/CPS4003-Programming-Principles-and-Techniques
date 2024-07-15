@@ -1,0 +1,17 @@
+Column,Description,Type
+EmployeeID,A unique identification number for each employee.,Integer
+Age,The age of the employee.,Integer
+Gender,The gender of the employee.,String
+MaritalStatus,"The marital status (Single, Married, Divorced) of the employee.",String
+Education,"The level of education (1=GCSE, 2=A-Levels, 3=Bachelor, 4=Master, 5=Doctorate) of the employee.",Integer
+Department,"The department (Cardiology, Maternity, Neurology) in which the employee works.",String
+JobRole,"The role (Nurse, Therapist, Administrative, Other) of the employee.",Integer
+HourlyRate,The rate of pay per hour for the employee.,Float
+YearsAtCompany,The number of years the employee has worked for the company.,Integer
+YearsInCurrRole,The number of years the employee has worked in their current role.,Integer
+DistanceFromHome,The distance between the employee’s home and place of work.,Integer
+BusinessTravel,"How often (Never, Rarely, Frequently) the employee has to travel for business purposes.",String
+WorkLifeBalance,"How the employee feels about their work and life balance (0=Bad, 1=Good, 2=Better, 3=Best).",Integer
+YearsLastPromotion,How many years it has been since the employee was last promoted.,Integer
+YearsCurrManager,How long the employee has worked with their current manager.,Integer
+Attrition,"Whether the employee left (Yes, No)",String (Can treat as Boolean)
